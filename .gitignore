@@ -3,4 +3,8 @@
 build/
 doc/api/
 .idea/
-
+docs/.dart_tool
+docs/packages
+docs/.*
+docs/pub*
+docs/web/packages
