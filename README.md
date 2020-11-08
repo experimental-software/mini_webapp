@@ -4,20 +4,28 @@ This is a template project for building tiny HTML pages with some JavaScript att
 
 ## Test
 
-```
-webdev serve
+Run this command to check the generated website during development:
+
+```bash
+docker run --rm -it -v $PWD:/app -p 8080:8080 -w /app experimentalsoftware/dart-webdev webdev-serve
 ```
 
 ## Build
 
-```
-webdev build
+Run those command to generate the website:
+
+```bash
+docker run --rm -it -v $PWD:/app -p 8080:8080 -w /app experimentalsoftware/dart-webdev
+pub get
+webdev build -o web:docs
 ```
 
 ## Deploy
 
-```
-rsync -r build/* root@${HOST}:${DIRECTORY}
+Run this command to deploy the generated website to your webserver:
+
+```bash
+rsync -r docs/* root@${HOST}:${DIRECTORY}
 ```
 
 ## License
