@@ -7,7 +7,7 @@ This is a template project for building tiny HTML pages with some JavaScript att
 Run this command to check the generated website during development:
 
 ```bash
-docker run --rm -it -v $PWD:/app -p 8080:8080 -w /app experimentalsoftware/dart-webdev webdev-serve
+webdev serve
 ```
 
 ## Build
