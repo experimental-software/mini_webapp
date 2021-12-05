@@ -15,8 +15,7 @@ docker run --rm -it -v $PWD:/app -p 8080:8080 -w /app experimentalsoftware/dart-
 Run those command to generate the website:
 
 ```bash
-docker run --rm -it -v $PWD:/app -p 8080:8080 -w /app experimentalsoftware/dart-webdev
-pub get
+dart pub get
 webdev build -o web:docs
 ```
 
