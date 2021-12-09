@@ -27,6 +27,10 @@ Run this command to deploy the generated website to your webserver:
 rsync -r docs/* root@${HOST}:${DIRECTORY}
 ```
 
+## References
+
+- https://pub.dev/packages/mdc_web
+
 ## License
 
 MIT
