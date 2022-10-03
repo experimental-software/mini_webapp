@@ -2,6 +2,16 @@
 
 This is a template project for building tiny HTML pages with some JavaScript attached to it for performing utility calculations.
 
+## Dependencies
+
+- Dart
+
+## Setup
+
+```
+dart pub global activate webdev
+```
+
 ## Test
 
 Run this command to check the generated website during development:
@@ -26,10 +36,6 @@ Run this command to deploy the generated website to your webserver:
 ```bash
 rsync -r docs/* root@${HOST}:${DIRECTORY}
 ```
-
-## References
-
-- https://pub.dev/packages/mdc_web
 
 ## License
 

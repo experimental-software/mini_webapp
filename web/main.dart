@@ -61,7 +61,7 @@ void handleKeystrokeEvent(Event e) {
 }
 
 List<String> calculateResults(num firstNumber, num secondNumber) {
-  var result = List<String>.empty();
+  var result = <String>[];
   result.add("$firstNumber + $secondNumber = ${firstNumber + secondNumber}");
   result.add("$firstNumber - $secondNumber = ${firstNumber - secondNumber}");
   result.add("$firstNumber * $secondNumber = ${firstNumber * secondNumber}");
