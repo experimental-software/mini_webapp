@@ -6,4 +6,4 @@ environment:
 
 dev_dependencies:
   build_runner: ^2.2.1
-  build_web_compilers: ^3.2.6
+  build_web_compilers: ^3.2.7
